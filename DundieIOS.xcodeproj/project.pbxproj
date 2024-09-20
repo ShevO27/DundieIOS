@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9601D92D2C9D990C00530FE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9601D92C2C9D990C00530FE7 /* README.md */; };
 		96E0938B2C8F4D4D005003B8 /* DundieIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0938A2C8F4D4D005003B8 /* DundieIOSApp.swift */; };
-		96E0938D2C8F4D4D005003B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0938C2C8F4D4D005003B8 /* ContentView.swift */; };
-		96E0938F2C8F4D4D005003B8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0938E2C8F4D4D005003B8 /* Item.swift */; };
 		96E093912C8F4D4F005003B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E093902C8F4D4F005003B8 /* Assets.xcassets */; };
 		96E093942C8F4D4F005003B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E093932C8F4D4F005003B8 /* Preview Assets.xcassets */; };
 		96E0939E2C8F4D4F005003B8 /* DundieIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0939D2C8F4D4F005003B8 /* DundieIOSTests.swift */; };
 		96E093A82C8F4D4F005003B8 /* DundieIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E093A72C8F4D4F005003B8 /* DundieIOSUITests.swift */; };
 		96E093AA2C8F4D4F005003B8 /* DundieIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E093A92C8F4D4F005003B8 /* DundieIOSUITestsLaunchTests.swift */; };
+		96E093BB2C8F6964005003B8 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E093BA2C8F6964005003B8 /* AppNavigation.swift */; };
+		96E093BE2C8F6BA7005003B8 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E093BD2C8F6BA7005003B8 /* SettingsManager.swift */; };
+		96E093C12C8F8EC9005003B8 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E093C02C8F8EC9005003B8 /* UserDefault.swift */; };
+		96E093C82C8F953D005003B8 /* FrameWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E093C72C8F953D005003B8 /* FrameWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9601D92C2C9D990C00530FE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96E093872C8F4D4D005003B8 /* DundieIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DundieIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E0938A2C8F4D4D005003B8 /* DundieIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DundieIOSApp.swift; sourceTree = "<group>"; };
-		96E0938C2C8F4D4D005003B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		96E0938E2C8F4D4D005003B8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		96E093902C8F4D4F005003B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E093932C8F4D4F005003B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96E093992C8F4D4F005003B8 /* DundieIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DundieIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +48,10 @@
 		96E093A32C8F4D4F005003B8 /* DundieIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DundieIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E093A72C8F4D4F005003B8 /* DundieIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DundieIOSUITests.swift; sourceTree = "<group>"; };
 		96E093A92C8F4D4F005003B8 /* DundieIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DundieIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96E093BA2C8F6964005003B8 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		96E093BD2C8F6BA7005003B8 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		96E093C02C8F8EC9005003B8 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		96E093C72C8F953D005003B8 /* FrameWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		96E0937E2C8F4D4D005003B8 = {
 			isa = PBXGroup;
 			children = (
+				9601D92C2C9D990C00530FE7 /* README.md */,
 				96E093892C8F4D4D005003B8 /* DundieIOS */,
 				96E0939C2C8F4D4F005003B8 /* DundieIOSTests */,
 				96E093A62C8F4D4F005003B8 /* DundieIOSUITests */,
@@ -96,9 +103,12 @@
 		96E093892C8F4D4D005003B8 /* DundieIOS */ = {
 			isa = PBXGroup;
 			children = (
+				96E093C52C8F9529005003B8 /* Core */,
+				96E093BF2C8F8EB8005003B8 /* Utils */,
+				96E093BC2C8F6B9C005003B8 /* Services */,
+				96E093B72C8F5BE2005003B8 /* Navigation */,
+				96E093B62C8F4EA2005003B8 /* Models */,
 				96E0938A2C8F4D4D005003B8 /* DundieIOSApp.swift */,
-				96E0938C2C8F4D4D005003B8 /* ContentView.swift */,
-				96E0938E2C8F4D4D005003B8 /* Item.swift */,
 				96E093902C8F4D4F005003B8 /* Assets.xcassets */,
 				96E093922C8F4D4F005003B8 /* Preview Content */,
 			);
@@ -128,6 +138,77 @@
 				96E093A92C8F4D4F005003B8 /* DundieIOSUITestsLaunchTests.swift */,
 			);
 			path = DundieIOSUITests;
+			sourceTree = "<group>";
+		};
+		96E093B62C8F4EA2005003B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96E093B72C8F5BE2005003B8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				96E093BA2C8F6964005003B8 /* AppNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		96E093BC2C8F6B9C005003B8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				96E093BD2C8F6BA7005003B8 /* SettingsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		96E093BF2C8F8EB8005003B8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				96E093C22C8F8ED3005003B8 /* Wrappers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		96E093C22C8F8ED3005003B8 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				96E093C02C8F8EC9005003B8 /* UserDefault.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		96E093C32C8F93F0005003B8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				96E093C42C8F93F4005003B8 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		96E093C42C8F93F4005003B8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		96E093C52C8F9529005003B8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				96E093C62C8F952E005003B8 /* Kit */,
+				96E093C32C8F93F0005003B8 /* Features */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		96E093C62C8F952E005003B8 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				96E093C72C8F953D005003B8 /* FrameWrapper.swift */,
+			);
+			path = Kit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9601D92D2C9D990C00530FE7 /* README.md in Resources */,
 				96E093942C8F4D4F005003B8 /* Preview Assets.xcassets in Resources */,
 				96E093912C8F4D4F005003B8 /* Assets.xcassets in Resources */,
 			);
@@ -260,9 +342,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E0938D2C8F4D4D005003B8 /* ContentView.swift in Sources */,
-				96E0938F2C8F4D4D005003B8 /* Item.swift in Sources */,
+				96E093BE2C8F6BA7005003B8 /* SettingsManager.swift in Sources */,
+				96E093C12C8F8EC9005003B8 /* UserDefault.swift in Sources */,
 				96E0938B2C8F4D4D005003B8 /* DundieIOSApp.swift in Sources */,
+				96E093BB2C8F6964005003B8 /* AppNavigation.swift in Sources */,
+				96E093C82C8F953D005003B8 /* FrameWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
